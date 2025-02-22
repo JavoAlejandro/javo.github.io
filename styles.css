@@ -357,3 +357,37 @@ footer{
     padding: 5rem 9%;
     text-align: center;
 }
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.skill i {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #007bff;
+}
+
+.level {
+    font-size: 14px;
+    color: gray;
+}
