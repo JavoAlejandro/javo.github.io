@@ -227,6 +227,7 @@ span{
 }
 
 .social-icons a{
+    color: #007bff;
     display: inline-flex;
     justify-content: center;
     align-items: center;
