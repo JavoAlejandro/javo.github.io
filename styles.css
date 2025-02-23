@@ -209,16 +209,17 @@ span{
 
 
 .home-img{
-    border-radius: 50%;
+    display: flex;
+    align-items: flex-start; 
+    gap: 40px; 
 }
 
 .home-img img{
-    position: relative;
-    width: 16vw;
-    border-radius: 50%;
-    box-shadow: 1 0 0px rgba(0, 0, 0, 0.5);
-    cursor: pointer;
-    transition: 1ms ease;
+    width: 180px; 
+    height: 180px;
+    border-radius: 50%; 
+    object-fit: cover; 
+    margin-top: -30px; 
 }
 
 .home-img img:hover{
@@ -337,9 +338,15 @@ span{
 
 
 @media(max-width: 955px){
-.home{
-    flex-direction: column;
-    margin: 5rem 4rem;
+/* Ajuste del contenedor principal */
+.home {
+    display: flex;
+    align-items: flex-start; /* Alinea la imagen en la parte superior */
+    gap: 40px; /* Espaciado entre imagen y texto */
+    flex-wrap: wrap; /* Permite que los elementos se ajusten si el ancho es pequeño */
+    max-width: 1200px;
+    margin: 0 auto; /* Centrar el contenido */
+    padding: 50px 20px;
 }
 
 .home-content h3{
@@ -353,10 +360,18 @@ span{
 .home-contet h1{
     font-size: 5rem;
 }
-.home-img img{
-    width: 25vw;
-    margin-top: 4rem;
+.home-img img {
+    width: 200px; 
+    height: 200px;
+    border-radius: 50%; 
+    object-fit: cover; 
+    margin-top: -20px; 
 }
+}
+
+.home-content {
+    flex: 1; /* Permite que el contenido tome el espacio restante */
+    min-width: 300px; /* Evita que se haga demasiado pequeño */
 }
 
 
