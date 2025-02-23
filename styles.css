@@ -227,7 +227,7 @@ span{
 }
 
 .social-icons a{
-    color: #007bff;
+    color: #007bff !important;;
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -239,6 +239,14 @@ span{
     border-radius: 50%;
     margin: 3rem 1.5rem 3rem;
     transition: 0.5s ease;
+}
+
+.social-icons a i {
+    color: #007bff !important; 
+}
+
+.social-icons a:hover i {
+    color: #ffffff !important; 
 }
 
 .social-icons a:hover{
