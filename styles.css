@@ -494,14 +494,7 @@ h2 {
     margin-top: 15px;
 }
 
-.skill {
-    background-color: #21262d;
-    padding: 8px 12px;
-    border-radius: 20px;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-}
+/* Contacto */
 
 .contact-info {
     display: flex;
