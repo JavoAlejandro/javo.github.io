@@ -167,7 +167,7 @@ section{
     display:flex;
     justify-content: center;
     align-items: center;
-    gap:8rem;
+    gap:6rem;
     background-color: #000000;
     padding: 5rem 9%;
     color: #ffffff;
@@ -402,6 +402,7 @@ h2 {
 .skills-container {
    display: flex;
     flex-wrap: wrap;  
+    margin-top: 10px;
     justify-content: flex-start; 
     gap: 10px;  
     max-width: 900px; 
@@ -418,6 +419,7 @@ h2 {
     font-size: 1.2rem;
     transition: all 0.3s ease;
     white-space: nowrap; 
+    background-color: rgb(33, 32, 32);
 }
 
 /* Cambia el color al pasar el mouse */
@@ -431,4 +433,108 @@ h2 {
 .skill i {
     min-width: 24px;
     text-align: center;
+}
+
+
+#icon-rails{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url('me/rubyonrails.ico');
+    background-size: cover;
+}
+
+#icon-mongo{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url('me/mongodb.ico');
+    background-size: cover;
+}
+
+
+/* Proyectos */
+
+.project-card {
+    background-color: #161b22;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.role {
+    font-weight: bold;
+    font-size: 10px;
+    color: #c9d1d9;
+}
+
+.date {
+    font-size: 14px;
+    color: #8b949e;
+}
+
+.description {
+    margin-top: 10px;
+    color: #b1bac4;
+    font-size: 13px;
+}
+
+.project-link {
+    color: #f0b90b;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.skill {
+    background-color: #21262d;
+    padding: 8px 12px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background: #181818;
+    padding: 20px;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background: #222;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.contact-item i {
+    color: #ffffff; /* Color dorado para los íconos */
+    font-size: 20px;
+}
+
+.label {
+    font-size: 12px;
+    color: #aaa;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.contact-item p {
+    margin: 0;
+    color: #fff;
 }
